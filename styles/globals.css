@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+@layer base {
+  body {
+    @apply text-white font-lato bg-codestation_bg;
+  }
+}
+
+@layer components {
+  .hoverNav {
+    @apply border-transparent border-b-2 pb-1 hover:border-[#00D1FF] transition duration-200 ease-in font-lato300 text-sm;
+  }
+}
