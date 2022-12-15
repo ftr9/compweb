@@ -11,7 +11,6 @@ const ImageWithText = ({ imageUrl, text }: IImageWithText) => {
     <div
       className=" h-[150px] relative w-[220px] my-3  md:m-5
       flex items-center justify-center overflow-hidden rounded-sm
-    
     "
     >
       <Image src={imageUrl} fill alt={text} className=" object-cover" />

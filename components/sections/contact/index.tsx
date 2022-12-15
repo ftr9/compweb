@@ -5,6 +5,7 @@ import LottieContainer from '../../lottieContainer/LottieContainer';
 import ContactAnimation from '../../lottieanimation/contact.json';
 import ContactCard from '../../cards/ContactCard';
 import { IoLogoFacebook, IoPhonePortrait, IoMail } from 'react-icons/io5';
+import { Element } from 'react-scroll';
 
 const contactList = [
   {
@@ -26,7 +27,7 @@ const contactList = [
 
 const Contact = () => {
   return (
-    <div id="contact">
+    <Element name="contact">
       <SecHeading text="How to contact us ?" />
       <LottieContainer animationData={ContactAnimation} />
       <SecParagraph text="You can contact us via email, phone our through facebook page." />
@@ -41,7 +42,7 @@ const Contact = () => {
           />
         ))}
       </div>
-    </div>
+    </Element>
   );
 };
 

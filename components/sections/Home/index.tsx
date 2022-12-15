@@ -3,13 +3,18 @@ import codingAnimation from '../../lottieanimation/coding.json';
 import { IoCalculator } from 'react-icons/io5';
 import LottieContainer from '../../lottieContainer/LottieContainer';
 import { useRouter } from 'next/navigation';
+import { Element, scroller } from 'react-scroll';
+
 const Home = () => {
   const router = useRouter();
   const contactUsClickHandle = () => {
-    router.push('/#contact');
+    scroller.scrollTo('contact', {
+      duration: 200,
+      smooth: true,
+    });
   };
   return (
-    <div id="home">
+    <Element name="home">
       <LottieContainer animationData={codingAnimation} />
       <h1 className="text-3xl text-center font-lato900 md:text-6xl bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent ">
         DREAM . BUILD . LAUNCH
@@ -25,7 +30,7 @@ const Home = () => {
         <span>contact us</span>
         <IoCalculator className=" h-5 w-5" />
       </button>
-    </div>
+    </Element>
   );
 };
 

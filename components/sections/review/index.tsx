@@ -2,6 +2,7 @@ import React, { useId } from 'react';
 import ReviewCard from '../../cards/ReviewCard';
 import SecHeading from '../../heading/SecHeading';
 import SecParagraph from '../../paragraph/SecParagraph';
+import { Element } from 'react-scroll';
 
 const reviewDatas = [
   {
@@ -38,7 +39,7 @@ const reviewDatas = [
 
 const Review = () => {
   return (
-    <div id="review" className="py-5">
+    <Element name="review" className="py-5">
       <SecHeading text="What our clients say ?" />
       <SecParagraph text="Below are the list of our successful clients." />
       <div className=" flex  w-[100%] md:w-[80%] mx-auto flex-wrap sm:py-5 md:py-10">
@@ -51,7 +52,7 @@ const Review = () => {
           />
         ))}
       </div>
-    </div>
+    </Element>
   );
 };
 

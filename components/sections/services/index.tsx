@@ -4,6 +4,7 @@ import LottieContainer from '../../lottieContainer/LottieContainer';
 import coding2Data from '../../lottieanimation/coding2.json';
 import SecParagraph from '../../paragraph/SecParagraph';
 import ImageWithText from '../../cards/ImageWithText';
+import { Element } from 'react-scroll';
 
 const servicesAtCodeStation = [
   {
@@ -38,7 +39,7 @@ const servicesAtCodeStation = [
 
 const Services = () => {
   return (
-    <div id="services" className="mt-5">
+    <Element name="services" className="mt-5">
       <SecHeading text="What we can do ?" />
       <LottieContainer animationData={coding2Data} />
       <SecParagraph
@@ -55,7 +56,7 @@ const Services = () => {
           />
         ))}
       </div>
-    </div>
+    </Element>
   );
 };
 

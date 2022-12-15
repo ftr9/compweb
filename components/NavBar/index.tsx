@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link as ReactScrollLink } from 'react-scroll';
 
 const NavBar = () => {
   return (
@@ -11,19 +11,29 @@ const NavBar = () => {
       <div className="hidden md:block">
         <ul className="[&>*]:hover:cursor-pointer flex space-x-8">
           <li className="hoverNav">
-            <Link href={'#home'}>Home</Link>
+            <ReactScrollLink to={'home'} duration={800} smooth>
+              Home
+            </ReactScrollLink>
           </li>
           <li className="hoverNav">
-            <Link href={'#services'}>Services</Link>
+            <ReactScrollLink to={'services'} duration={800} smooth>
+              Services
+            </ReactScrollLink>
           </li>
           <li className="hoverNav">
-            <Link href={'#teams'}>Teams</Link>
+            <ReactScrollLink to={'teams'} duration={800} smooth>
+              Teams
+            </ReactScrollLink>
           </li>
           <li className="hoverNav">
-            <Link href={'#review'}>Review</Link>
+            <ReactScrollLink to={'review'} duration={800} smooth>
+              Review
+            </ReactScrollLink>
           </li>
           <li className="hoverNav">
-            <Link href={'#contact'}>Contact</Link>
+            <ReactScrollLink to={'contact'} duration={800} smooth>
+              Contact
+            </ReactScrollLink>
           </li>
         </ul>
       </div>
