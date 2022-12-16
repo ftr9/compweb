@@ -1,5 +1,3 @@
-import React from 'react';
-import Link from 'next/link';
 import {
   IoHome,
   IoHammer,
@@ -12,7 +10,7 @@ import { Link as ReactScrollLink } from 'react-scroll';
 
 const BottomNav = () => {
   return (
-    <ul className=" bg-gradient-to-br from-cyan-400 to-blue-400 z-50 md:hidden px-4 py-2 fixed bottom-0  text-gray-100 text-[10px] w-[100%] left-1/2 -translate-x-1/2 flex justify-between">
+    <ul className=" bg-gradient-to-br from-cyan-500 to-[#20bf55] z-50 md:hidden px-4 py-2 fixed bottom-0  text-gray-100 text-[10px] w-[100%] left-1/2 -translate-x-1/2 flex justify-between">
       <li>
         <ReactScrollLink
           to={'home'}

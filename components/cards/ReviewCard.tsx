@@ -12,7 +12,7 @@ const ReviewCard = ({ clientImage, clientName, text }: IReviewCardProps) => {
     <Link
       target={'_blank'}
       href={'https://google.com'}
-      className="bg-[#111111]   md:flex-shrink-0 md:flex-grow md:basis-[250px] m-0 my-2 mx-auto md:m-5 p-5 "
+      className="bg-[#111111] rounded-md basis-[90%] md:flex-shrink-0 md:flex-grow md:basis-[250px] m-0 my-3 mx-auto md:m-5 p-5 "
     >
       <div className="flex items-center space-x-4">
         <div className="relative rounded-full overflow-hidden h-10 w-10">

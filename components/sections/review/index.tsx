@@ -6,32 +6,38 @@ import { Element } from 'react-scroll';
 
 const reviewDatas = [
   {
-    clientName: 'Mrl 1',
-    text: 'some random gibberissh that not actually that good enough as well',
+    clientName: 'sujan bhattrai',
+    text: 'test comment',
     clientImage:
       'https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/276297653_1175640276577179_6010080642725450089_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=iK_KuSm_cKkAX-iBG_H&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCxdMpzpJla964zBeKDiKuww_sPacLdmFvrp5x4FoPiTQ&oe=639EBB4E',
   },
   {
-    clientName: 'Mrl 1',
-    text: 'some random gibberissh that not actually that good enough as well',
+    clientName: 'Aishma Poudel',
+    text: 'test comment',
     clientImage:
       'https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/276297653_1175640276577179_6010080642725450089_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=iK_KuSm_cKkAX-iBG_H&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCxdMpzpJla964zBeKDiKuww_sPacLdmFvrp5x4FoPiTQ&oe=639EBB4E',
   },
   {
-    clientName: 'Mrl 1',
-    text: 'some random gibberissh that not actually that good enough as well',
+    clientName: 'Rahul dotel',
+    text: 'test comment',
     clientImage:
       'https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/276297653_1175640276577179_6010080642725450089_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=iK_KuSm_cKkAX-iBG_H&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCxdMpzpJla964zBeKDiKuww_sPacLdmFvrp5x4FoPiTQ&oe=639EBB4E',
   },
   {
-    clientName: 'Mrl 1',
-    text: 'some random gibberissh that not actually that good enough as well',
+    clientName: 'Subash tamang',
+    text: 'test comment',
     clientImage:
       'https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/276297653_1175640276577179_6010080642725450089_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=iK_KuSm_cKkAX-iBG_H&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCxdMpzpJla964zBeKDiKuww_sPacLdmFvrp5x4FoPiTQ&oe=639EBB4E',
   },
   {
-    clientName: 'Mrl 1',
-    text: 'some random gibberissh that not actually that good enough as well',
+    clientName: 'Smaran sapkota',
+    text: 'test comment',
+    clientImage:
+      'https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/276297653_1175640276577179_6010080642725450089_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=iK_KuSm_cKkAX-iBG_H&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCxdMpzpJla964zBeKDiKuww_sPacLdmFvrp5x4FoPiTQ&oe=639EBB4E',
+  },
+  {
+    clientName: 'Saksham khadayat',
+    text: 'test comment',
     clientImage:
       'https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/276297653_1175640276577179_6010080642725450089_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=iK_KuSm_cKkAX-iBG_H&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCxdMpzpJla964zBeKDiKuww_sPacLdmFvrp5x4FoPiTQ&oe=639EBB4E',
   },

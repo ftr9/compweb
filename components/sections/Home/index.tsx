@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <Element name="home">
       <LottieContainer animationData={codingAnimation} />
-      <h1 className="text-3xl text-center font-lato900 md:text-6xl bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent ">
+      <h1 className="text-3xl text-center font-lato900 md:text-6xl bg-gradient-to-r from-cyan-500 to-[#20bf55] bg-clip-text text-transparent ">
         DREAM . BUILD . LAUNCH
       </h1>
       <p className="w-[100%] text-gray-400 text-center md:w-[60%] mx-auto text-[15px] md:text-xl mt-5">
@@ -25,7 +25,7 @@ const Home = () => {
       </p>
       <button
         onClick={contactUsClickHandle}
-        className="mt-10 flex space-x-5 items-center justify-center py-3 rounded-sm mx-auto w-[200px] bg-gradient-to-r from-cyan-500 to-blue-500"
+        className="mt-10 flex space-x-5 items-center justify-center py-3 rounded-sm mx-auto w-[200px] bg-gradient-to-r from-cyan-500 to-[#20bf55]"
       >
         <span>contact us</span>
         <IoCalculator className=" h-5 w-5" />
