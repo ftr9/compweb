@@ -4,7 +4,12 @@ import SecParagraph from '../../paragraph/SecParagraph';
 import LottieContainer from '../../lottieContainer/LottieContainer';
 import ContactAnimation from '../../lottieanimation/contact.json';
 import ContactCard from '../../cards/ContactCard';
-import { IoLogoFacebook, IoPhonePortrait, IoMail } from 'react-icons/io5';
+import {
+  IoLogoFacebook,
+  IoPhonePortrait,
+  IoMail,
+  IoLogoInstagram,
+} from 'react-icons/io5';
 import { Element } from 'react-scroll';
 
 const contactList = [
@@ -23,6 +28,11 @@ const contactList = [
     contactLink: 'mailto:codestation.mail@gmail.com',
     icon: IoMail,
   },
+  {
+    contactName: 'Instagram',
+    contactLink: 'https://www.instagram.com/codestationnepal/',
+    icon: IoLogoInstagram,
+  },
 ];
 
 const Contact = () => {
@@ -30,7 +40,7 @@ const Contact = () => {
     <Element name="contact">
       <SecHeading text="How to contact us ?" />
       <LottieContainer animationData={ContactAnimation} />
-      <SecParagraph text="You can contact us via email, phone our through facebook page." />
+      <SecParagraph text="You can contact us via email, phone, instagram and facebook." />
       <SecParagraph text="click on the below cards to contact us." />
       <div className="py-10">
         {contactList.map(contact => (

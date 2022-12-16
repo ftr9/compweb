@@ -26,7 +26,7 @@ const NavBar = () => {
           </li>
           <li className="hoverNav">
             <ReactScrollLink to={'teams'} duration={800} smooth>
-              Teams
+              About us
             </ReactScrollLink>
           </li>
           <li className="hoverNav">

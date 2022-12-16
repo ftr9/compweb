@@ -41,7 +41,7 @@ const BottomNav = () => {
           className="space-y-[0.8px]"
         >
           <IoPeople className="mx-auto text-[15px]" />
-          <span className="block">Teams</span>
+          <span className="block">About us</span>
         </ReactScrollLink>
       </li>
       <li>

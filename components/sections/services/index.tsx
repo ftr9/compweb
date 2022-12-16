@@ -39,13 +39,13 @@ const servicesAtCodeStation = [
 
 const Services = () => {
   return (
-    <Element name="services" className="mt-5">
+    <Element name="services" className="mt-20">
       <SecHeading text="What we can do ?" />
       <LottieContainer animationData={coding2Data} />
       <SecParagraph
-        text="We can do wide variety of projects ranging from development to design.
-      Take your Business to next level and excel your business. Below Down are
-      the list of the things we are capable of."
+        text="We can do wide variety of projects ranging from development to design so you can
+      take your Business to next level and excel it. Below Down are
+      the list of the services we are capable of providing."
       />
       <div className=" flex md:w-[80%] mx-auto py-10 flex-wrap justify-center ">
         {servicesAtCodeStation.map(service => (

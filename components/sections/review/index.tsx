@@ -47,7 +47,7 @@ const Review = () => {
   return (
     <Element name="review" className="py-5">
       <SecHeading text="What our clients say ?" />
-      <SecParagraph text="Below are the list of our successful clients." />
+      <SecParagraph text="Below are the lists of our happy and successful clients who trusted us." />
       <div className=" flex  w-[100%] md:w-[80%] mx-auto flex-wrap sm:py-5 md:py-10">
         {reviewDatas.map(review => (
           <ReviewCard

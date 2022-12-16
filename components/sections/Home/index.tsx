@@ -20,8 +20,11 @@ const Home = () => {
         DREAM . BUILD . LAUNCH
       </h1>
       <p className="w-[100%] text-gray-400 text-center md:w-[60%] mx-auto text-[15px] md:text-xl mt-5">
-        Code Station is a #1 new established company for building your dream
-        project in a reliable and optimal way.{' '}
+        Welcome to CODE STATION ! We are a leading provider of innovative
+        technology solutions for businesses of all sizes.Build your dream
+        project in a reliable and optimal way.
+        {/*Code Station is a #1 new established company for building your dream
+        project in a reliable and optimal way.{' '}*/}
       </p>
       <button
         onClick={contactUsClickHandle}
