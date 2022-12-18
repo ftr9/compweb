@@ -6,7 +6,7 @@ const NavBar = () => {
     <div className="flex z-50 justify-between items-center  py-5 md:p-2 fixed top-[-55px] md:top-[-60px] w-[98%] md:w-[90%]  left-[50%] translate-x-[-50%]">
       <div className=" relative h-[150px] w-[150px] md:h-[260px] md:w-[260px] ">
         <Image
-          src={'/assets/logo/withnobackground.png'}
+          src={'/assets/logo/firtlogo3dwithlessreflection.png'}
           alt={'company logo'}
           fill
           className=" object-contain z-50"
